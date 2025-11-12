@@ -1,7 +1,7 @@
 {
   "name": "phpshift",
   "displayName": "PHPShift",
-  "description": "A placeholder extension that directs users to the PHPShift project.",
+  "description": "Placeholder VS Code plugin for PHPShift.",
   "version": "1.0.0",
   "publisher": "phpshift",
   "engines": {
