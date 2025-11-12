@@ -1,0 +1,33 @@
+{
+  "name": "phpshift",
+  "displayName": "PHPShift",
+  "description": "A placeholder extension that directs users to the PHPShift project.",
+  "version": "0.0.2",
+  "publisher": "phpshift",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "phpshift.openWebsite",
+        "title": "Open PHPShift Website"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "scripts": {
+    "package": "vsce package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phpshift/VSCode"
+  }
+}
