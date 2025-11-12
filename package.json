@@ -2,7 +2,7 @@
   "name": "phpshift",
   "displayName": "PHPShift",
   "description": "Placeholder VS Code plugin for PHPShift.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "phpshift",
   "engines": {
     "vscode": "^1.80.0"
